@@ -7,16 +7,23 @@
     <title>Document</title>
     <style>
         body {
-            height: 100vh;
+            /* height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            ** Shorthand ** -colocando tudo acima em uma unica declaração.ordem:
+            color > image > position > repeat > [size] > attachment
+            o size tem que declarar separadamente pois não funcionou na sequencia.*/
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +34,16 @@
 <body>
     <main>
         <h1> Teste Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dicta porro maxime error nisi, totam enim doloremque corporis quo quasi blanditiis perferendis officiis omnis? A aliquid sit itaque voluptate autem?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam fuga esse veritatis, perspiciatis molestiae impedit eius iure error accusamus velit illo dolorum repellat. Facere molestias nemo exercitationem voluptas quo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dicta porro maxime error nisi, totam enim doloremque corporis quo quasi blanditiis perferendis officiis omnis? A aliquid sit itaque voluptate autem?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam fuga esse veritatis, perspiciatis molestiae impedit eius iure error accusamus velit illo dolorum repellat. Facere molestias nemo exercitationem voluptas quo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dicta porro maxime error nisi, totam enim doloremque corporis quo quasi blanditiis perferendis officiis omnis? A aliquid sit itaque voluptate autem?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam fuga esse veritatis, perspiciatis molestiae impedit eius iure error accusamus velit illo dolorum repellat. Facere molestias nemo exercitationem voluptas quo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dicta porro maxime error nisi, totam enim doloremque corporis quo quasi blanditiis perferendis officiis omnis? A aliquid sit itaque voluptate autem?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam fuga esse veritatis, perspiciatis molestiae impedit eius iure error accusamus velit illo dolorum repellat. Facere molestias nemo exercitationem voluptas quo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dicta porro maxime error nisi, totam enim doloremque corporis quo quasi blanditiis perferendis officiis omnis? A aliquid sit itaque voluptate autem?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam fuga esse veritatis, perspiciatis molestiae impedit eius iure error accusamus velit illo dolorum repellat. Facere molestias nemo exercitationem voluptas quo.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dicta porro maxime error nisi, totam enim doloremque corporis quo quasi blanditiis perferendis officiis omnis? A aliquid sit itaque voluptate autem?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque totam fuga esse veritatis, perspiciatis molestiae impedit eius iure error accusamus velit illo dolorum repellat. Facere molestias nemo exercitationem voluptas quo.</p>
     </main>
